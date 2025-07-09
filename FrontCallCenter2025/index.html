@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--! Title -->
+    <title>Call Center</title>
+    <!--! JavaScript -->
+    <script src="js/main.js" type="module"></script>
+    <script src="js/fontawesome/solid.js"></script>
+    <script src="js/highcharts.js"></script>
+    <!-- ? Stylesheet -->
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/themes.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/sidemenu.css" rel="stylesheet">
+    <link href="css/fontawesome/fontawesome.css" rel="stylesheet">
+    <link href="css/fontawesome/solid.css" rel="stylesheet">
+    <!--* metadata -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <!-- ...existing code... -->
+<div id="content">
+    <div class="dashboard-header">
+        <i class="fas fa-chart-bar"></i>
+        <span>Dashboard</span>
+    </div>
+    <div class="dashboard-cards">
+        <div class="dashboard-card">
+            <i class="fas fa-user"></i>
+            <div>
+                <div class="dashboard-value" id="active-agents">999</div>
+                <div class="dashboard-label">Active Agents</div>
+            </div>
+        </div>
+        <div class="dashboard-card">
+            <i class="fas fa-phone"></i>
+            <div>
+                <div class="dashboard-value" id="active-calls">0</div>
+                <div class="dashboard-label">Active Calls</div>
+            </div>
+        </div>
+        <div class="dashboard-card">
+            <i class="fas fa-phone-volume"></i>
+            <div>
+                <div class="dashboard-value" id="total-calls">999</div>
+                <div class="dashboard-label">Total Calls</div>
+            </div>
+        </div>
+        <div class="dashboard-card dashboard-card-alert">
+            <i class="fas fa-users"></i>
+            <div>
+                <div class="dashboard-value" id="calls-queue">999</div>
+                <div class="dashboard-label">Calls on Queue</div>
+            </div>
+        </div>
+        <div class="dashboard-card">
+            <i class="fas fa-clock"></i>
+            <div>
+                <div class="dashboard-value" id="avg-handle-time">0:00:00</div>
+                <div class="dashboard-label">Average Handle Time</div>
+            </div>
+        </div>
+        <div class="dashboard-card">
+            <i class="fas fa-hourglass-half"></i>
+            <div>
+                <div class="dashboard-value" id="wait-time">0:00:00</div>
+                <div class="dashboard-label">Wait Time</div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ...existing code... -->
+        <div id="header-left">
+            <div id="header-menu">
+                <i id="icon-side-menu" class="fas fa-bars icon"></i>
+            </div>
+            <div id="header-logo">
+                <label>logo goes here</label>
+            </div>
+        </div>
+        <div id="header-right">
+            <div id="header-user">
+                <i class="fas fa-user icon"></i>
+                <label>Username</label>
+            </div>
+            <div id="header-notifications">
+                <i class="fas fa-bell icon"></i>
+            </div>
+            <div id="header-settings">
+                <i class="fas fa-cog icon"></i>
+            </div>
+
+        </div>
+    </header>
+
+    <div id="body">
+        <div id="side-menu"></div>
+        <div id="content"></div>
+    </div>
+
+</body>
+</html>
